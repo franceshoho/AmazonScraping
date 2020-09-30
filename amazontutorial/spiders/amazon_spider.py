@@ -4,7 +4,6 @@ from ..items import AmazontutorialItem
 class AmazonSpider(scrapy.Spider):
     name = 'amazon'
     page_number = 2
-    # webscraping books
     start_urls = [
         'https://www.amazon.com/s?k=web+scraping+with+python&i=stripbooks&crid=1QOXPKOK9P1QS&sprefix=webscraping+%2Caps%2C232&ref=nb_sb_ss_sc_2_12'
     ]
